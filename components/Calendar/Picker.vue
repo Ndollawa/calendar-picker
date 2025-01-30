@@ -24,7 +24,7 @@
 <style >
 .calendar-picker{
   display: flex;
-  width:15rem;
+  width:18rem;
   margin-top: -10rem;
 }
 :root{
@@ -36,14 +36,14 @@
     --dp-common-transition: all 0.1s ease-in; /*Generic transition applied on buttons and calendar cells*/
 
  /*Sizing*/
-    --dp-button-height: 35px; /*Size for buttons in overlays*/
-    --dp-month-year-row-height: 35px; /*Height of the month-year select row*/
-    --dp-month-year-row-button-size: 35px; /*Specific height for the next/previous buttons*/
+    --dp-button-height: 40px; /*Size for buttons in overlays*/
+    --dp-month-year-row-height: 40px; /*Height of the month-year select row*/
+    --dp-month-year-row-button-size: 40px; /*Specific height for the next/previous buttons*/
     --dp-button-icon-height: 20px; /*Icon sizing in buttons*/
-    --dp-cell-size: 35px; /*Width and height of calendar cell*/
+    --dp-cell-size: 40px; /*Width and height of calendar cell*/
     --dp-cell-padding: 5px; /*Padding in the cell*/
     --dp-common-padding: 2rem; /*Common padding used*/
-    --dp-input-icon-padding: 35px; /*Padding on the left side of the input if icon is present*/
+    --dp-input-icon-padding: 40px; /*Padding on the left side of the input if icon is present*/
     --dp-input-padding: 8px 32px 8px 14px; /*Padding in the input*/
     --dp-menu-min-width: 260px; /*Adjust the min width of the menu*/
     --dp-action-buttons-padding: 2px 5px; /*Adjust padding for the action buttons in action row*/
@@ -62,28 +62,13 @@
 
 .dp__theme_light {
     --dp-background-color: #fff;
-    --dp-text-color: #212121;
+    --dp-text-color: #959595;
     --dp-hover-color: #f3f3f3;
     --dp-hover-text-color: #212121;
     --dp-hover-icon-color: #959595;
     --dp-primary-color: #000000FF;
     --dp-primary-disabled-color: #6bacea;
     --dp-primary-text-color: #f8f5f5;
-    --dp-secondary-color: #c0c4cc;
-    --dp-border-color: rgb(230, 228, 228);;
-    --dp-menu-border-color: #ddd;
-    --dp-border-color-hover: #aaaeb7;
-    --dp-border-color-focus: #aaaeb7;
-    --dp-disabled-color: #f6f6f6;
-    --dp-scroll-bar-background: #f3f3f3;
-    --dp-scroll-bar-color: #959595;
-    --dp-success-color: #76d275;
-    --dp-success-color-disabled: #a3d9b1;
-    --dp-icon-color: #959595;
-    --dp-danger-color: #ff6f60;
-    --dp-marker-color: #ff6f60;
-    --dp-tooltip-color: #fafafa;
-    --dp-disabled-color-text: #8e8e8e;
     --dp-highlight-color: rgb(25 118 210 / 10%);
     --dp-range-between-dates-background-color: var(--dp-hover-color, #f3f3f3);
     --dp-range-between-dates-text-color: var(--dp-hover-text-color, #212121);
