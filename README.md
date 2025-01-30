@@ -14,8 +14,7 @@ This project is a simple calendar picker built using **Nuxt.js**. It allows user
 
 ## Demo
 
-You can view the deployed application [here](#).  
-*(Replace the `#` with the actual deployment URL)*
+You can view the deployed application [here](https://calendar-picker.onrender.com).  
 
 ## Getting Started
 
@@ -100,10 +99,12 @@ Deploy:
 netlify deploy
 ```
 ### Technologies Used
-Nuxt.js: Framework for building Vue.js applications.
-Vue 3 Composition API: For reactivity and state management.
-date-fns: For date manipulation and formatting.
-Unit Testing
+    - Nuxt.js: Framework for building Vue.js applications.
+    - Vue 3 Composition API: For reactivity and state management.
+    - date-fns: For date manipulation and formatting.
+    - @vuepic/vue-datepicker: For custom calendar implementation.
+
+#### Unit Testing
 Unit tests are implemented using Jest. The test suite covers the following:
 
 Date selection.
